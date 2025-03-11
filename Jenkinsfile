@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'g++ -o PES2UG22CS663-1 main.cpp' // Replace 'YOUR_SRN-1' with your actual SRN
+                    sh 'g++ -o PES2UG22CS663-1 SRNmain.cpp' // Replace 'YOUR_SRN-1' with your actual SRN
                 }
             }
         }
